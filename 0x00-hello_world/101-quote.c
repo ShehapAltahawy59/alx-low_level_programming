@@ -1,6 +1,8 @@
 #include <unistd.h>
 /**
- *ses the write function from the unistd.h library
+ *main -  write function from the unistd.h library
+ *
+ * Return: Always 1 (success)
  */
 int main(void)
 {
