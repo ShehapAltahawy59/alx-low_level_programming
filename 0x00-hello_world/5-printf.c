@@ -3,7 +3,7 @@
 /**
  * main - printf()
  *
- * Return: Always 0 (seccess)
+ * Return: Always 0 (Seccess)
  */ 
 int main(void)
 {
