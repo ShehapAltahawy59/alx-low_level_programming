@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 /**
  * main - printf()
  *
- * Return: Alwyas 0 (seccess)
+ * Return: Always 0 (seccess)
  */ 
 int main(void)
 {
