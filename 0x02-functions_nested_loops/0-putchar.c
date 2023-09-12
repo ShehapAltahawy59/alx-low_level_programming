@@ -20,7 +20,7 @@ int main(void)
 }
 
 /**
- * print_putchar - Prints "_putchar" followed by a newline
+ * _putchar - Prints "_putchar" followed by a newline
  */
 void _putchar(void)
 {
