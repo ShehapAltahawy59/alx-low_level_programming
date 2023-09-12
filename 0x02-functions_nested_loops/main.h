@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 // function declarations
-void print_putchar();
+void print_putchar(void);
 
 #endif
 
