@@ -13,18 +13,20 @@
 /*function prototype*/
 void print_putchar(void);
 
-int main(void) 
+int main(void)
 {
 	print_putchar();
-	return 0;
+	return(0);
 }
 
 /*function definition*/
-void print_putchar(void) 
+void print_putchar(void)
 {
 	char str[] = "_putchar";
 	int i = 0;
-	while (str[i]) {
+
+	while (str[i])
+		{
 		putchar(str[i]);
 		i++;
 		}
