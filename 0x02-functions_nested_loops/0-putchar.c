@@ -7,11 +7,6 @@
  * _putchar - print
  */
 
-
-#include <stdio.h>
-
-
-
 int main(void)
 {
 	_putchar();
