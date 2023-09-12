@@ -7,5 +7,7 @@
 // function declarations
 void print_putchar(void);
 
-#endif
+void print_alphabet(void);
+
+endif
 
