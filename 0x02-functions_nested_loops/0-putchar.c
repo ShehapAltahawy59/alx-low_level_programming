@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-// function prototype
+/*function prototype*/
 void print_putchar();
 
 int main() {
@@ -16,7 +16,7 @@ int main() {
 	return 0;
 }
 
-// function definition
+/*function definition*/
 void print_putchar() {
 	char str[] = "_putchar";
 	int i = 0;
