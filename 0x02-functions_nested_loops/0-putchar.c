@@ -16,10 +16,12 @@ void print_putchar(void);
 int main(void)
 {
 	print_putchar();
-	return(0);
+	return (0);
 }
 
-/*function definition*/
+/**
+ * print_putchar - Prints "_putchar" followed by a newline
+ */
 void print_putchar(void)
 {
 	char str[] = "_putchar";
