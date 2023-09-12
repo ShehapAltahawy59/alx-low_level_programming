@@ -22,7 +22,7 @@ int main(void)
 /**
  * print_putchar - Prints "_putchar" followed by a newline
  */
-void print_putchar(void)
+void _putchar(void)
 {
 	char str[] = "_putchar";
 	int i = 0;
