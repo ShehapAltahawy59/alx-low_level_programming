@@ -1,8 +1,11 @@
 #include <stdio.h>
 
 /**
- * print-alphabet - print from a to z
+ * print_alphabet - Prints the alphabet in lowercase, 
+ * followed by a new line.
  */
+
+
 
 void print_alphabet(void)
 {
