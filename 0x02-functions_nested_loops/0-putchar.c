@@ -10,8 +10,7 @@
 
 #include <stdio.h>
 
-/*function prototype*/
-void _putchar(void);
+
 
 int main(void)
 {
