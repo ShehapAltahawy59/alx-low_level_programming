@@ -11,7 +11,7 @@
 #include <stdio.h>
 
 /*function prototype*/
-void print_putchar(void);
+void _putchar(void);
 
 int main(void)
 {
