@@ -1,6 +1,6 @@
 /**
- * m_isalpha - chesk if c is alpha
- *
+ * _isalpha - chesk if c is alpha
+ * @c:the character to check
  * return: 1 if alpha 0 other
  */
 
