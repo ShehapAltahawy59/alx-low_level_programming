@@ -6,18 +6,18 @@
  *
  * _putchar - print
  */
-void _putchar(void);
+void print_putchar(void);
 
 int main(void)
 {
-	_putchar();
+	print_putchar();
 	return (0);
 }
 
 /**
- * _putchar - Prints "_putchar" followed by a newline
+ * print_putchar - Prints "_putchar" followed by a newline
  */
-void _putchar(void)
+void print_putchar(void)
 {
 	char str[] = "_putchar";
 	int i = 0;
