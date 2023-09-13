@@ -1,7 +1,7 @@
 /**
  * _isalpha - chesk if c is alpha
  * @c:the character to check
- * return: 1 if alpha 0 other
+ * Return: 1 if c alpha 0 otherwise
  */
 
 int _isalpha(int c)
