@@ -8,6 +8,7 @@
 void jack_bauer(void)
 {
 	int hour,minute;
+	char h1,h2,m1,m2;
 
 	for (hour = 0; hour < 24;hour++)
 	{
