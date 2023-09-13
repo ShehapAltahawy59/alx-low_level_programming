@@ -2,7 +2,7 @@
  * add - add two number
  * @a: first number
  * @b: second number
- * @c: the result
+ * 
  * Return: the result
  */
 
@@ -10,6 +10,6 @@ int add(int a, int b)
 {
 	int c;
 
-	c=a+b;
+	c = a + b;
 	return (c);
 }
