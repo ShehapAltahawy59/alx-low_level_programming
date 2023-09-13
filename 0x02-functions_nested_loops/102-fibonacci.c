@@ -1,15 +1,14 @@
 #include <stdio.h>
 /** main - entry
- *
- * Return: 0
+ * return: 0
  */
 
 int main(void)
 {
-    long int i, a = 1, b = 2, next;
+	long int i, a = 1, b = 2, next;
 
-    printf("%ld, %ld", a, b);
-    for (i = 3; i <= 50; i++)
+	printf("%ld, %ld", a, b);
+	for (i = 3; i <= 50; i++)
 	{
 		next = a + b;
 		printf(", %ld", next);
