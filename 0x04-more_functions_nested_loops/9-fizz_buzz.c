@@ -1,52 +1,47 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * main - entry
- * Return: zero
- */
-
-int _putchar(char);
+ *main - entry point
+ *
+ *Description: a program that prints the numbers from 1 to 100
+ *followed by a new line.
+ *But for multiples of three print Fizz instead of the number
+ *and for the multiples of five print Buzz.
+ *For numbers which are multiples of both three and five print FizzBuzz
+ *
+ *Return: always (0) success
+ *
+*/
 
 int main(void)
 {
-	int i;
-	int j;
-	char fizz[] = "Fizz ";
-	char buzz[] = "Buzz ";
-	char fizzbuzz[] = "FizzBuzz ";
-	for (i = 1; i <= 100; i++)
-	{
-		if (i % 3 == 0 && i % 5 == 0)
-		{
-			for (j = 0; fizzbuzz[j] != '\0'; j++)
-			{
-				_putchar(fizzbuzz[j]);
-			}
-		}
-		else if (i % 3 == 0)
-		{
-			for (j = 0; fizz[j] != '\0'; j++)
-			{
-				_putchar(fizz[j]);
-			}
-		}
-		else if (i % 5 == 0)
-		{
-			for (j = 0; buzz[j] != '\0'; j++)
-			{
-				_putchar(buzz[j]);
-			}
-		}
-		else
-		{
-			if (i >= 10)
-			{
-				_putchar((i / 10) + '0');
-			}
-			_putchar((i % 10) + '0');
-			_putchar(' ');
-		}
-	}
-	_putchar('\n');
-	return (0);
+int i;
+for (i = 1; i <= 100; i++)
+{
+if (i % 15 == 0)
+{
+printf("FizzBuzz");
+putchar(' ');
+continue;
+}
+else if (i % 5 == 0)
+{
+printf("Buzz");
+if (i == 100)
+break;
+putchar(' ');
+continue;
+}
+else if (i % 3 == 0)
+{
+printf("Fizz");
+putchar(' ');
+continue;
+}
+
+printf("%d", i);
+putchar(' ');
+}
+putchar('\n');
+return (0);
 }
