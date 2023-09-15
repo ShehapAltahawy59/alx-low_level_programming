@@ -7,7 +7,7 @@
 
 int _putchar(char);
 
-int main()
+int main(void)
 {
 	int i;
 	int j;
