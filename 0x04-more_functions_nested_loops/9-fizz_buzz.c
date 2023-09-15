@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - entry
- * Return: none
+ * Return: zero
  */
 
 int main()
@@ -45,5 +45,5 @@ int main()
 		}
 	}
 	_putchar('\n');
-	return 0;
+	return (0);
 }
