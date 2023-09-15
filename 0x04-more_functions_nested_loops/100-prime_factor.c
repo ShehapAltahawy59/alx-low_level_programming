@@ -10,6 +10,7 @@ int main(void)
 	long n = 612852475143;
 	long max_prime = -1;
 	int i;
+
 	while (n % 2 == 0)
 	{
 		max_prime = 2;
