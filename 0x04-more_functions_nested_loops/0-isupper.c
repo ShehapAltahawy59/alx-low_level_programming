@@ -2,7 +2,7 @@
 /**
  * _isupper - check if upper
  * @c: char is checked
- * Return:1 if char 0 other
+ * Return: 1 if char 0 other
  */
 
 int _isupper(int c)
