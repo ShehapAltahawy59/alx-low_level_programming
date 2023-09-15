@@ -5,6 +5,7 @@
  * main - entry point
  * Return: zero
  */
+
 int main(void)
 {
 	long n = 612852475143;
