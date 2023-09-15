@@ -4,30 +4,34 @@
  * Return: none
  */
 
-#include <stdio.h>
-
 int main()
 {
-	for (int i = 1; i <= 100; i++)
+	int i;
+	int j;
+	char fizz[] = "Fizz ";
+	char buzz[] = "Buzz ";
+	char fizzbuzz[] = "FizzBuzz ";
+	for (i = 1; i <= 100; i++)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
-			for (char *c = "FizzBuzz "; *c; c++) 
-			{	
-				_putchar(*c);
+			for (j = 0; fizzbuzz[j] != '\0'; j++)
+			{
+				_putchar(fizzbuzz[j]);
 			}
 		}
 		else if (i % 3 == 0)
 		{
-			for (char *c = "Fizz "; *c; c++)
+			for (j = 0; fizz[j] != '\0'; j++)
 			{
-				_putchar(*c);
+				_putchar(fizz[j]);
 			}
-		} else if (i % 5 == 0)
+		}
+		else if (i % 5 == 0)
 		{
-			for (char *c = "Buzz "; *c; c++)
+			for (j = 0; buzz[j] != '\0'; j++)
 			{
-				_putchar(*c);
+				_putchar(buzz[j]);
 			}
 		}
 		else
