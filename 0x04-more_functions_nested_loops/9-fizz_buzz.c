@@ -1,8 +1,11 @@
 #include "main.h"
+
 /**
  * main - entry
  * Return: zero
  */
+
+void _putchar(char);
 
 int main()
 {
