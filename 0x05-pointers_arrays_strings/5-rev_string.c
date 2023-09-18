@@ -18,7 +18,7 @@ void rev_string(char *s)
 	}
 	pointer2--;
 
-	while (pointer1 != pointer2)
+	while (pointer2 >  pointer1)
 	{
 		swap = *pointer2;
 		*pointer2 = *pointer1;
