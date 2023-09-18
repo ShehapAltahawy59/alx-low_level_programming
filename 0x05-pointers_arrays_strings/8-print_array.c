@@ -21,4 +21,5 @@ void print_array(int *a, int n)
 		}
 		pointer++;
 	}
+	printf("\n");
 }
