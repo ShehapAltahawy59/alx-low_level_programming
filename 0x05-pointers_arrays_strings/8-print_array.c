@@ -9,14 +9,16 @@
 
 void print_array(int *a, int n)
 {
-	int *pointer = a, i, v;
+	int *pointer = a, i;
 
 	for (i = 0; i < n; i++)
 	{
 		
-		_putchar(*pointer, '0');
-		_putchar(',');
-		_putchar(' ');
+		printf("%d", *pointer);
+		if (i < n - 1)
+		{
+			printf(", ");
+		}
 		pointer++;
 	}
 }
