@@ -9,11 +9,15 @@
 void puts2(char *str)
 {
 	char *pointer = str;
-
+	int num = 0;
 	while (*pointer != '\0')
 	{
-		_putchar(*pointer);
-		pointer+=2;
+		if (num % 0 == 0)
+		{
+			_putchar(*pointer);
+		}
+		pointer++;
+		num++;
 	}
 	_putchar('\n');
 }
