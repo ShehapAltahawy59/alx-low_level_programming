@@ -23,6 +23,14 @@ int _atoi(char *s)
 			started = 1;
 			result = result * 10 + (*s - '0');
 		}
+		started = 1;
+		int old_result = result;
+		
+		result = result * 10 + (*s - '0');
+		if (old_result != 0 && result / old_result != 10)
+		{
+			return sign == -1 ? INT_MIN : INT_MAX;
+		}
 		else if (started)
 		{
 			break;
