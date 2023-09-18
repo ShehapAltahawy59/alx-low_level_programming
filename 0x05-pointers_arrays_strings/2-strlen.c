@@ -11,13 +11,10 @@ int _strlen(char *s)
 	char *pointer = s;
 	int len = 0;
 
-	if (*pointer == "\0")
-	{
-		return (len);
-	}
-	else
+	while (*pointer != "\0")
 	{
 		len++;
-		pointer = pointer+1;
+		pointer++
 	}
+	return (len);
 }
