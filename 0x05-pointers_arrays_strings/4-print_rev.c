@@ -23,4 +23,5 @@ void print_rev(char *s)
 		pointer--;
 		size--;
 	}
+	_putchar('\n');
 }
