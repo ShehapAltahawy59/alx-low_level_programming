@@ -8,7 +8,7 @@
 
 int _strlen(char *s)
 {
-	char pointer = s;
+	char *pointer = s;
 	int len = 0;
 
 	if (*pointer == "\0")
