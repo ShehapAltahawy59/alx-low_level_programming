@@ -1,4 +1,4 @@
-#import "mian.h"
+#import "main.h"
 
 /**
  * reset_to_98 - reset pointer vslue to 98
