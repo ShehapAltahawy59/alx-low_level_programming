@@ -11,7 +11,7 @@ void rev_string(char *s)
 	char *pointer1 = s;
 	char *pointer2 = s;
 	char swap;
-	
+
 	while (*pointer2 != '\0')
 	{
 		pointer2++;
