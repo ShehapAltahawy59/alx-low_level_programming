@@ -1,15 +1,16 @@
 #include "main.h"
 /**
- * strncat - conctainate
+ * _strncat - conctainate
  * @dest: final string
  * @src: first string
+ * @n: number of byte
  * Return: string
  */
 
 char *_strncat(char *dest, char *src, int n)
 {
 	char *ptr = dest;
-	
+
 	while (*ptr != '\0')
 	{
 		ptr++;
