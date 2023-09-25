@@ -1,0 +1,4 @@
+chmod u+x "$(ls -t | head -n1)"
+git add .
+git commit -m 'edit'
+git push
