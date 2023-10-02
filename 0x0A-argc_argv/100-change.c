@@ -25,24 +25,29 @@ while (cents > 0)
 	if ((cents - 25) >= 0)
 	{
 		cents -= 25;
+		coins++;
 		continue;
 	}
 	if ((cents - 10) >= 0)
-	{
+	i{
 		cents -= 10;
+		coins++;
 		continue;
 	}
 	if ((cents - 5) >= 0)
 	{
 		cents -= 5;
+		coins++;
 		continue;
 	}
 	if ((cents - 2) >= 0)
 	{
 		cents -= 2;
+		coins++;
 		continue;
 	}
 	cents--;
+	coins++
 }
 printf("%d\n", coins);
 return (0);
