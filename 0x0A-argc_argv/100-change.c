@@ -45,11 +45,8 @@ int main(int argc, char *argv[])
 			coins++;
 			continue;
 		}
-		if ((cents - 1) >= 0)
-		{
-			cents--;
-			coins++;
-		}
+		cents--;
+		coins++;
 	}
 	printf("%d\n", coins);
 	return (0);
