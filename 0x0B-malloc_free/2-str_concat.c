@@ -30,7 +30,10 @@ char *str_concat(char *s1, char *s2)
 		concat_str[index] = s1[index];
 
 	for (index = 0; s2[index]; index++)
-		concat_str[len++] = s2[index];
+	{
+		concat_str[len] = s2[index];
+		len++
+	}
 
 	return (concat_str);
 }
