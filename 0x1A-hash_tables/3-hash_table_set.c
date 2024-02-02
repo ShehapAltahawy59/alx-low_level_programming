@@ -1,14 +1,9 @@
 #include "hash_tables.h"
-
 /**
  * hash_table_set - short description
- *
- * Description: long description
- *
  * @ht: hash table
  * @key: key
  * @value: value
- *
  * Return: return description
  */
 
@@ -16,7 +11,6 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 		unsigned long int index;
 		hash_node_t *new_node, *old_node;
-		
 
 		if (key == NULL || value == NULL || ht == NULL)
 		{
@@ -52,7 +46,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 								old_node->value = strdup(value);
 								free(new_node->key);
 								free(new_node->value);
-								fre(new_node);
+								free(new_node);
 								return (1);
 						}
 						old_node = old_node->next;
